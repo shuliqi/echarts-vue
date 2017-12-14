@@ -1,0 +1,103 @@
+/*css reset*/
+
+body,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+input,
+textarea,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px/1.5 arial, 'Microsoft YaHei';
+    color: #999;
+}
+
+img {
+    border: none;
+    display: block;
+}
+
+i {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+input,
+textarea {
+    border: none;
+    color: #666;
+}
+
+textarea {
+    resize: none;
+}
+
+select {
+    border: 1px solid #ccc;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+mark {
+    background-color: #fff;
+}
+
+input::-ms-clear,
+input::-ms-reveal {
+    display: none;
+}
+
+
+/* 清除ie中input的默认行为 */
+
+select::-ms-expand {
+    display: none;
+}
+
+
+/* placeholder插件字体样式 */
+
+.my-placeholder {
+    color: #aaa;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
